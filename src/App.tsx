@@ -125,24 +125,36 @@ function App() {
 
             <div className="item">
               <div className="item-header">
-                <div className="item-title">Algorithmic Trading Bot</div>
+                <a href="https://github.com/Akarshanop/Trading-Bot.git" target="_blank" rel="noopener noreferrer" className="item-title">Algorithmic Trading Bot ↗</a>
               </div>
               <div className="item-content">
                 <ul>
-                  <li>Engineered a high-concurrency FastAPI server utilizing Webhooks and Asyncio to execute trades programmatically from real-time Telegram signals.</li>
-                  <li>Integrated automated risk management modules for dynamic position sizing, stop-loss, and multi-take-profit (TP) logic with 99% execution uptime.</li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>High-Concurrency Trading Server:</strong> FastAPI & Asyncio automated trade execution.</div>
+                    <div className="full-text">Engineered a robust, high-concurrency FastAPI backend server utilizing Webhooks and Asyncio. The system programmatically executes trades by parsing and acting upon real-time Telegram signals, ensuring minimal latency between signal reception and market execution.</div>
+                  </li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>Automated Risk Management:</strong> Dynamic sizing & multi-TP logic with 99% uptime.</div>
+                    <div className="full-text">Integrated sophisticated risk management modules directly into the execution pipeline. Features include dynamic position sizing based on portfolio risk, automated stop-loss adjustments, and multi-take-profit (TP) logic, maintaining a 99% execution uptime across volatile market conditions.</div>
+                  </li>
                 </ul>
               </div>
             </div>
 
             <div className="item">
               <div className="item-header">
-                <div className="item-title">Verifi (GenAI Chrome Extension)</div>
+                <a href="https://github.com/Akarshanop/VeriFi.git" target="_blank" rel="noopener noreferrer" className="item-title">Verifi (GenAI Chrome Extension) ↗</a>
               </div>
               <div className="item-content">
                 <ul>
-                  <li>Developed a browser-based credibility engine leveraging Vision-Language Models (VLM) and OCR to analyze news authenticity in real-time.</li>
-                  <li>Implemented LLM-based semantic reasoning to generate dynamic trust scores and truth-o-meter UI overlays for unstructured web data.</li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>Browser Credibility Engine:</strong> VLM & OCR based real-time news authentication.</div>
+                    <div className="full-text">Developed a dynamic browser-based credibility engine leveraging advanced Vision-Language Models (VLM) and Optical Character Recognition (OCR). The extension actively scans unstructured web data and visual content to analyze news authenticity and detect potential misinformation in real-time.</div>
+                  </li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>Semantic Trust Scoring:</strong> LLM reasoning with interactive UI overlays.</div>
+                    <div className="full-text">Implemented LLM-based semantic reasoning to evaluate article credibility comprehensively. The system generates dynamic trust scores and visually represents them through an intuitive "truth-o-meter" UI overlay injected directly into the user's browser view.</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -153,8 +165,14 @@ function App() {
               </div>
               <div className="item-content">
                 <ul>
-                  <li>Built a productivity ecosystem using React.js and Chrome Extension APIs to intercept distracting web traffic.</li>
-                  <li>Features NLP-driven reflective prompts that analyze user intent via text classification before granting site access, reducing impulsive browsing by 40%.</li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>Productivity Web Interceptor:</strong> React.js & Chrome API ecosystem.</div>
+                    <div className="full-text">Built an overarching productivity ecosystem using React.js and Chrome Extension APIs designed to actively intercept and manage distracting web traffic based on user-defined parameters.</div>
+                  </li>
+                  <li className="hover-expand">
+                    <div className="short-text"><strong>NLP Reflective Prompts:</strong> Text classification reducing impulsive browsing by 40%.</div>
+                    <div className="full-text">Integrated NLP-driven reflective prompts that require users to state their intentions before accessing blocked sites. The system analyzes user intent via real-time text classification before granting access, effectively reducing impulsive browsing by 40%.</div>
+                  </li>
                 </ul>
               </div>
             </div>
