@@ -38,7 +38,7 @@ function App() {
                     <div className="full-text">Designed and implemented a comprehensive codebase knowledge repository utilizing Neo4j (Graph DB) and ChromaDB (Vector DB). Engineered a hybrid semantic and dependency search engine, serving as the foundational layer for 3 specialized AI agents (PRD Agent, Developer Agent, and Sales Agent) to autonomously analyze code and map architectural dependencies.</div>
                   </li>
                   <li className="hover-expand">
-                    <div className="short-text"><strong>Dice Examination Platform:</strong> NTA-format testing engine with integrated IDE & AI evaluation.</div>
+                    <div className="short-text"><strong><a href="https://exam-portal-eta.vercel.app/" target="_blank" rel="noopener noreferrer" style={{ color: 'inherit', textDecoration: 'underline' }}>Dice Examination Platform ↗</a>:</strong> NTA-format testing engine with integrated IDE & AI evaluation.</div>
                     <div className="full-text">Developed a production-ready online examination platform mirroring the official National Testing Agency (NTA) interface. Integrated a secure, browser-based IDE for real-time coding assessments and constructed an advanced AI evaluation pipeline to perform automated grading, syntax analysis, and logical correctness checks.</div>
                   </li>
                   <li className="hover-expand">
